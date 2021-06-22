@@ -1,5 +1,6 @@
 version: '3'
 services:
+# At installation process (type in postgres) as database location
   db:
     container_name: postgres
     image: postgres:latest
